@@ -25,6 +25,7 @@ Usage
 -----
 
 1. Fork this repo and rename it to "<your_shiny_gem>"
+2. Clone it
 2. Rip this code up and replace with stuff relevant to your new gem:
   * `find . -iname "*skeleton*"` to find files that will need to change
   * `grep -Ri skeleton *` to find stuff to delete/replace
