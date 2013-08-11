@@ -24,13 +24,23 @@ Opinions
 Usage
 -----
 
-1. Fork this repo and rename it to "<your_shiny_gem>"
-2. Clone it
-2. Rip this code up and replace with stuff relevant to your new gem:
-  * `find . -iname "*skeleton*"` to find files that will need to change
-  * `grep -Ri skeleton *` to find stuff to delete/replace
-3. Run `bundle exec` and see the 1 failing spec.
-4. Add code, tests, commit, and push to your new shiny gem.
+### Step 1: Verify Skeleton Works
+
+1. Fork this repo and rename it to <your_shiny_new_gem_name>.
+2. Clone it to your machine.
+3. Run `bundle`
+4. Run `bundle exec rspec` and see the 1 failing spec.
+
+### Step 2: Rename stuff
+
+* Rip this code up and replace with stuff relevant to your new gem.
+* `find . -iname "*skeleton*"` to find files that will need to change
+* `grep -Ri skeleton *` to find stuff to delete/replace
+* You might want to do `rm -rf .git` to delete any references to these skeleton files
+  before your first project push. (if you cloned it, rather than forked it)
+
+### Step 3: Hack
+* Add code, tests, commit, and push to your new shiny gem.
 
 Features
 --------
@@ -44,7 +54,8 @@ Features
 * `bundle exec rspec <SOME_FILE>` to run tests in just one file
 
 * `rake -T` to show the handy bundler Gem deploy tasks.
-* 
+  
+ 
 Gems created with this skeleton
 -------------------------------
 * [TODO](shibboleths_lil_helper: 2.0.0 branch)
