@@ -7,9 +7,9 @@ I made this repo instead of using one of the many gem generation tools
 like (gem-newgem, Ore, gem-init, prigner, gem-new) because I know what I want and I don't need extra functionality--just some boilerplate to get me going quick.
 
 I also created this to make it easy for non Ruby programmers to get
-started with creating a new Gem.
+started with creating a new Gem using behavior/test driven development.
 
-This was generated initially with `bundler 1.3.5`'s `bundle gem rubygem_skeleton`
+This was generated initially with `bundle gem rubygem_skeleton` (bundler 1.3.5`)
 
 If your opinions differ from mine in anyway, I don't recommend using
 this--it'll be easier and cleaner for you to build your gem from
@@ -42,8 +42,8 @@ Usage
 ### Step 3: Hack
 * Add code, tests, commit, and push to your new shiny gem.
 
-Features
---------
+Useful Developer Commands
+-------------------------
 
 * `bundle exec rspec` runs specs
 
